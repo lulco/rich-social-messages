@@ -1,0 +1,28 @@
+{
+	"name": "lulco/rich-social-messages",
+	"description": "Library for parsing and improving mesages from social networks",
+	"keywords": ["PHP", "Facebook", "Twitter", "Instagram", "statuses", "posts", "tweets", "tags", "users", "links"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michal Lulco",
+			"email": "michal.lulco@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">= 5.6.0"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "~2.0",
+		"phpunit/phpunit": ">4.2",
+		"sebastian/phpcpd": "~2.0.0"
+	},
+	"minimum-stability": "stable",
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"autoload-dev": {
+		"classmap": ["tests/"]
+	}
+}
